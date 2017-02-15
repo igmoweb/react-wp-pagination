@@ -1,0 +1,34 @@
+.page-numbers {
+	list-style:none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.page-numbers li {
+	display:inline-block;
+
+	margin-right:3px;
+	padding:0;
+}
+
+.page-numbers li > * {
+	padding:5px 10px;
+	font-size:17px;
+}
+
+.page-numbers li.current > span {
+	background:#DEDEDE;
+}
+
+.page-numbers li > a {
+	color:white;
+	background:orangered;
+	text-decoration:none;
+}
+
+.page-numbers.only-prev-next .prev {
+	float:left;
+}
+
+.page-numbers.only-prev-next .next {
+	float:right;
+}
